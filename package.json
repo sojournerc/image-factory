@@ -1,0 +1,29 @@
+{
+  "name": "image-factory",
+  "version": "0.0.0",
+  "description": "process user uploaded images into size variants, returning json with paths and info for those image assets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sojournerc/image-factory.git"
+  },
+  "keywords": [
+    "image",
+    "variants",
+    "koa"
+  ],
+  "author": "sojournerc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sojournerc/image-factory/issues"
+  },
+  "homepage": "https://github.com/sojournerc/image-factory",
+  "dependencies": {
+    "gm": "~1.16.0",
+    "lodash": "~2.4.1",
+    "thunkify": "~2.1.2"
+  }
+}
